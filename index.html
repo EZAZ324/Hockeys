@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockeys</title>
+
+    <!-- Tailwind CDN and daisyUi CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google font: Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .primary_heading {
+            color: #131318;
+            font-size: 2.25rem;
+            font-weight: 800;
+        }
+
+        .secondary_heading {
+            color: #131318;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+
+        .paragraph_text {
+            color: rgba(19, 19, 24, 0.60);
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .white_text {
+            color: #FFF;
+        }
+    </style>
+</head>
+
+<body class="manrope bg-slate-100">
+
+
+    <!-- header starts -->
+    <header class="w-[80%] mx-auto py-6">
+
+        <!--  banner starts -->
+        <div class="carousel w-full lg:h-[550px]">
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/1.png" class="w-full" />
+                <div class="absolute flex gap-6 transform -translate-y-1/2 left-5 top-[80%]">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/2.png" class="w-full" />
+                <div class="absolute flex gap-6 transform -translate-y-1/2 left-5 top-[80%]">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Images/3.png" class="w-full" />
+                <div class="absolute flex gap-6 transform -translate-y-1/2 left-5 top-[80%]">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+
+            <!-- sticker starts -->
+            <div class="hidden lg:block absolute bottom-[220px] right-[220px] w-[35%] p-8 bg-[#131318]">
+                <h2 class="mb-3 primary_heading text-2xl white_text">Meet all the heroes from the field</h2>
+                <p class="paragraph_text white_text ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus, sit! Labore ut placeat iste fugiat ea id fuga atque deleniti cumque dolor eum repellendus
+                </p>
+            </div>
+            <!-- sticker ends -->
+
+        </div>
+        <!-- banner ends -->
+    </header>
+    <!-- header ends -->
+
+
+
+    <!--  main starts -->
+    <main class="w-[80%] mx-auto py-6">
+
+        <!-- professional club starts -->
+        <section>
+            <div>
+                <h2 class="mb-3 primary_heading text-2xl text-center">Meet all the heroes from the field</h2>
+                <p class="paragraph_text text-center max-w-[600px] mx-auto">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <!-- radial progress -->
+            <div class="grid lg:grid-cols-4 gap-5 text-center mt-10 lg:mt-20">
+                <div>
+                    <div class="radial-progress text-error" style="--value:87;" role="progressbar">87%</div>
+                    <h4 class="my-2.5 secondary_heading">Prayer Faculty</h4>
+                    <p class="paragraph_text font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-success" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="my-2.5 secondary_heading">Experienced Coach</h4>
+                    <p class="paragraph_text font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-warning" style="--value:87;" role="progressbar">90%</div>
+                    <h4 class="my-2.5 secondary_heading">Senior Player</h4>
+                    <p class="paragraph_text font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-info" style="--value:87;" role="progressbar">80%</div>
+                    <h4 class="my-2.5 secondary_heading">Training Ground</h4>
+                    <p class="paragraph_text font-normal">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+        <!-- professional club ends -->
+    </main>
+    <!-- main ends -->
+
+    <!--  footer starts -->
+    <footer></footer>
+    <!-- footer ends -->
+</body>
+
+</html>
