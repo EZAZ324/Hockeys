@@ -41,10 +41,12 @@
         .white_text {
             color: #FFF;
         }
-        .border{
+
+        .border {
             border: 1px solid rgba(19, 19, 24, 0.10);
         }
-        .input_color{
+
+        .input_color {
             background: rgba(19, 19, 24, 0.03);
         }
     </style>
@@ -55,6 +57,57 @@
 
     <!-- header starts -->
     <header class="w-[80%] mx-auto py-6">
+
+        <!-- nav starts -->
+        <div class="navbar justify-between">
+            <div class=" lg:hidden">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li class="text-red-700 font-bold"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Pages</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="">
+                <p class=" text-xl">Hockey's</p>
+            </div>
+
+            <div class="hidden lg:block">
+                <nav>
+                    <ul class="flex gap-3">
+                        <li class="text-red-700 font-bold"><a href="index.html">Home</a></li>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="index.html">Pages</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="">
+                <button class="btn btn-ghost btn-circle hidden lg:block">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+                <button class="btn btn-error white_text">Buy Ticket</button>
+                
+            </div>
+        </div>
+        <!-- nav ends -->
 
         <!--  banner starts -->
         <div class="carousel w-full lg:h-[550px]">
@@ -330,7 +383,7 @@
                     <div class="lg:col-span-2">
                         <button class="btn btn-error white_text w-full">Send Message</button>
                     </div>
-                </div>         
+                </div>
             </div>
 
             <div class="input_color p-7 mt-16">
@@ -339,7 +392,7 @@
                     <a href="index.html"><img src="Images/facebook_logo.png" class="h-10 w-12" alt=""></a>
                     <a href="index.html"><img src="Images/github_logo.png" class="h-10 w-12" alt=""></a>
                     <a href="index.html"><img src="Images/twitter_logo.png" class="h-10 w-12" alt=""></a>
-                    
+
                 </div>
             </div>
         </section>
