@@ -41,10 +41,16 @@
         .white_text {
             color: #FFF;
         }
+        .border{
+            border: 1px solid rgba(19, 19, 24, 0.10);
+        }
+        .input_color{
+            background: rgba(19, 19, 24, 0.03);
+        }
     </style>
 </head>
 
-<body class="manrope bg-slate-100">
+<body class="manrope bg-[#ffffff]">
 
 
     <!-- header starts -->
@@ -131,8 +137,8 @@
         <section class="mt-20">
             <div>
                 <h2 class="mb-3 primary_heading text-center lg:text-4xl">Program Sections</h2>
-                <p class="paragraph_text text-center max-w-[600px] mx-auto my-6">Dit amet consectetur. Condimentum dignissim
-                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                <p class="paragraph_text text-center max-w-[600px] mx-auto my-6">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
 
             <!-- cards -->
@@ -193,7 +199,7 @@
         <section>
 
             <!-- FAQ description -->
-            <div class="my-10 lg:my-20">
+            <div class="my-10 lg:mt-20">
                 <h2 class="mb-3 primary_heading text-center lg:text-4xl">FAQ</h2>
                 <p class="paragraph_text text-center max-w-[600px] mx-auto">Dit amet consectetur. Condimentum dignissim
                     adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -263,45 +269,123 @@
             </div>
         </section>
         <!-- FAQ section ends -->
+
+
+        <!-- Get in touch section starts -->
+        <section class="mt-20">
+            <div>
+                <h2 class="mb-3 primary_heading text-center lg:text-4xl">Get In Touch</h2>
+                <p class="paragraph_text text-center max-w-[600px] mx-auto mt-4 mb-10">Dit amet consectetur. Condimentum
+                    dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row gap-[5%] justify-between">
+                <div class=" lg:w-[40%] lg:p-14 border flex flex-col gap-5">
+                    <!-- cards -->
+                    <div class="bg-[#f9fef1] px-8 py-12">
+                        <img src="Images/Group 1171275317.png" alt="">
+                        <p>Phone Number: </p>
+                        <p>(+62) 123-321-543</p>
+                    </div>
+                    <div class="bg-[#fffcef] px-8 py-12">
+                        <img src="Images/Group 1171275318.png" alt="">
+                        <p>Email: </p>
+                        <p>hockeys@support.com</p>
+                    </div>
+                    <div class="bg-[#f0f6fe] px-8 py-12">
+                        <img src="Images/Group 1171275321.png" alt="">
+                        <p>Location: </p>
+                        <p>152/1 Mohakhali Wireless Gate</p>
+                    </div>
+                </div>
+
+                <!-- form -->
+                <div class="grid lg:grid-cols-2 gap-4 lg:w-[55%]">
+                    <div class="flex flex-col gap-2">
+                        <label for="" class=" text-xl font-medium secondary_heading">Your Name </label>
+                        <input type="text" placeholder="Enter your full name"
+                            class="input input-bordered w-full input_color" />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="" class=" text-xl font-medium secondary_heading">Your Email </label>
+                        <input type="text" placeholder="Enter your email"
+                            class="input input-bordered w-full input_color" />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="" class=" text-xl font-medium secondary_heading">Subject </label>
+                        <input type="text" placeholder="Enter your subject"
+                            class="input input-bordered w-full input_color" />
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="" class=" text-xl font-medium secondary_heading">Phone Number </label>
+                        <input type="text" placeholder="Enter your number"
+                            class="input input-bordered w-full input_color" />
+                    </div>
+                    <div class="flex flex-col gap-2 lg:col-span-2">
+                        <label for="" class=" text-xl font-medium secondary_heading">Message </label>
+                        <textarea name="" id="" cols="" rows="10" placeholder="Write your message"
+                            class="input_color w-[100%]"></textarea>
+                    </div>
+
+                    <div class="lg:col-span-2">
+                        <button class="btn btn-error white_text w-full">Send Message</button>
+                    </div>
+                </div>         
+            </div>
+
+            <div class="input_color p-7 mt-16">
+                <h3 class="text-center text-2xl text-[#131318] font-extrabold my-5 ">Social Media</h3>
+                <div class="flex justify-center gap-4">
+                    <a href="index.html"><img src="Images/facebook_logo.png" class="h-10 w-12" alt=""></a>
+                    <a href="index.html"><img src="Images/github_logo.png" class="h-10 w-12" alt=""></a>
+                    <a href="index.html"><img src="Images/twitter_logo.png" class="h-10 w-12" alt=""></a>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Get in touch section ends -->
+
+
     </main>
     <!-- main ends -->
 
 
     <!--  footer starts -->
-        <footer class="footer grid-cols-2 lg:grid-cols-5 p-10 bg-[#131318] text-base-content mt-16">
-            <aside class="col-span-2 place-items-center lg:place-items-start">
-               <h3 class="text-[#FFF] font-extrabold text-2xl">Get In Touch</h3>
-                <p class="text-center lg:text-start lg:w-[70%]">Dit amet consectetur. Condimentum   adipiscing aliquam turpis placerat dolor. Purus  urna in sit nullam proin. </p>
-                <div class="flex items-center gap-5">
-                    <img src="Images/Group 1171275318.png" alt="" class="h-5 w-5">
-                    <p>hockeys@support.com</p>
-                </div>
-                <div class="flex items-center gap-5">
-                    <img src="Images/Group 1171275317.png" alt="" class="h-5 w-5">
-                    <p>(+62) 123-321-543</p>
-                </div>
-            </aside> 
-            <nav class="place-items-center lg:place-items-start">
-              <header class=" text-[#FFF] font-bold text-lg">Company</header> 
-              <a class="link link-hover">Branding</a>
-              <a class="link link-hover">Design</a>
-              <a class="link link-hover">Marketing</a>
-              <a class="link link-hover">Advertisement</a>
-            </nav> 
-            <nav class="place-items-center lg:place-items-start">
-              <header class="text-[#FFF] font-bold text-lg">Support</header> 
-              <a class="link link-hover">About us</a>
-              <a class="link link-hover">Contact</a>
-              <a class="link link-hover">Jobs</a>
-              <a class="link link-hover">Press kit</a>
-            </nav> 
-            <nav class="col-span-2 lg:col-span-1 mx-auto place-items-center lg:place-items-start">
-              <header class="text-[#FFF] font-bold text-lg">Service</header> 
-              <a class="link link-hover">Terms of use</a>
-              <a class="link link-hover">Privacy policy</a>
-              <a class="link link-hover">Cookie policy</a>
-            </nav>
-          </footer>
+    <footer class="footer grid-cols-2 lg:grid-cols-5 p-10 bg-[#131318] text-base-content mt-16">
+        <aside class="col-span-2 place-items-center lg:place-items-start">
+            <h3 class="text-[#FFF] font-extrabold text-2xl">Get In Touch</h3>
+            <p class="text-center lg:text-start lg:w-[70%]">Dit amet consectetur. Condimentum adipiscing aliquam turpis
+                placerat dolor. Purus urna in sit nullam proin. </p>
+            <div class="flex items-center gap-5">
+                <img src="Images/Group 1171275318.png" alt="" class="h-5 w-5">
+                <p>hockeys@support.com</p>
+            </div>
+            <div class="flex items-center gap-5">
+                <img src="Images/Group 1171275317.png" alt="" class="h-5 w-5">
+                <p>(+62) 123-321-543</p>
+            </div>
+        </aside>
+        <nav class="place-items-center lg:place-items-start">
+            <header class=" text-[#FFF] font-bold text-lg">Company</header>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav class="place-items-center lg:place-items-start">
+            <header class="text-[#FFF] font-bold text-lg">Support</header>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav class="col-span-2 lg:col-span-1 mx-auto place-items-center lg:place-items-start">
+            <header class="text-[#FFF] font-bold text-lg">Service</header>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+    </footer>
     <!-- footer ends -->
 </body>
 
