@@ -56,7 +56,7 @@
 
 
     <!-- header starts -->
-    <header class="w-[80%] mx-auto py-6">
+    <header class="w-[80%] mx-auto py-10">
 
         <!-- nav starts -->
         <div class="navbar justify-between">
@@ -69,7 +69,8 @@
                                 d="M4 6h16M4 12h16M4 18h7" />
                         </svg>
                     </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li class="text-red-700 font-bold"><a href="index.html">Home</a></li>
                         <li><a href="index.html">About</a></li>
                         <li><a href="index.html">Pages</a></li>
@@ -80,10 +81,10 @@
             </div>
 
             <div class="">
-                <p class=" text-xl">Hockey's</p>
+                <p class=" text-2xl text-[#424247] font-extrabold">Hockey<span class="text-red-600">’</span>s</p>
             </div>
 
-            <div class="hidden lg:block">
+            <div class="hidden lg:block text-lg text-[#424247]">
                 <nav>
                     <ul class="flex gap-3">
                         <li class="text-red-700 font-bold"><a href="index.html">Home</a></li>
@@ -103,8 +104,8 @@
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
                 </button>
-                <button class="btn btn-error white_text">Buy Ticket</button>
-                
+                <button class="btn btn-error white_text lg:text-lg">Buy Ticket</button>
+
             </div>
         </div>
         <!-- nav ends -->
@@ -134,7 +135,7 @@
             </div>
 
             <!-- sticker starts -->
-            <div class="hidden lg:block absolute bottom-[220px] right-[220px] w-[35%] p-8 bg-[#131318]">
+            <div class="hidden lg:block absolute bottom-[150px] right-[220px] w-[35%] p-8 bg-[#131318]">
                 <h2 class="mb-3 primary_heading text-2xl white_text">Meet all the heroes from the field</h2>
                 <p class="paragraph_text white_text ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Accusamus, sit! Labore ut placeat iste fugiat ea id fuga atque deleniti cumque dolor eum repellendus
@@ -144,6 +145,15 @@
 
         </div>
         <!-- banner ends -->
+
+        <!-- small device banner -->
+        <div class="lg:hidden p-4 bg-[#131318] mt-5">
+            <h2 class="mb-3 primary_heading text-xl white_text">Meet all the heroes from the field</h2>
+            <p class="paragraph_text white_text text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusamus, sit! Labore ut placeat iste fugiat ea id fuga atque deleniti cumque dolor eum repellendus
+            </p>
+        </div>
+
     </header>
     <!-- header ends -->
 
@@ -244,8 +254,99 @@
         <!-- programme section ends -->
 
 
-        <!-- new programme section starts -->
-        <!-- new programme section ends -->
+        <!-- production section starts -->
+        <section>
+
+             <!-- production description description -->
+             <div class="my-10 lg:mt-20">
+                <h2 class="mb-3 primary_heading text-center lg:text-4xl">Our New Products</h2>
+                <p class="paragraph_text text-center max-w-[600px] mx-auto">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <!-- cards -->
+            <div class="grid lg:grid-cols-2 gap-5">
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/5.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/6.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/7.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/8.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/9.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side shadow-xl flex-col lg:flex-row">
+                    <figure><img src="Images/10.png" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <p><img src="Images/Frame.png" alt="" class="inline"> 5.0 <img src="Images/eye.png" alt=""
+                                class="inline"> 20 <img src="Images/love.png" alt="" class="inline"> 200</p>
+                        <h2 class="text-[#131318] text-xl font-extrabold">World Cup Flags Football</h2>
+                        <p class="paragraph_text">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                        <div class="card-actions justify-end">
+                            <p class="text-red-500 font-extrabold">Price - $22.00</p>
+                            <p class="paragraph_text">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- production section ends -->
 
 
         <!-- FAQ section starts -->
